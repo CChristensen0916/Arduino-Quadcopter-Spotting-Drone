@@ -61,7 +61,7 @@ void loop()
   data.yaw      = mapJoystickValues( analogRead(A1),  1, 505, 1020, true );
   data.pitch    = mapJoystickValues( analogRead(A2), 12, 544, 1021, true );
   data.roll     = mapJoystickValues( analogRead(A3), 34, 522, 1020, true );
-  data.AUX1     = digitalRead(4); //The switch or potentiometer
+  data.AUX1     = mapJoystickValues( analogRead(A4), 0, 512, 1028, true ); //LED Intensity
 
   radio.write(&data, sizeof(MyData));
 }
