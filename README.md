@@ -1,2 +1,2 @@
-# Arduino-Quadcopter-Spotting-Drone
-This is a junior design project created by Colin Christensen and Riley Swearingen. Colin is a Computer Engineering student that is focusing on the coding of this project and Riley is an Electrical Engineering student working on the hardware connections. This project was worked on and completed under the supervision of Dr. Puteri Megat Hamari.
+# PPM Reciever module
+This module is for the PPM Reciever. The PPM recieves 5 channels from the transmitter and then communicates directly to the flight controller.
